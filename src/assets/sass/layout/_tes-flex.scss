@@ -1,0 +1,96 @@
+.tes-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tes-bottom {
+    display: flex;
+    margin-top: var(--mb-tes);
+    margin-bottom: var(--mb-tes);
+}
+.tes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+// putting text in each box
+.tes-top {
+    margin-top: var(--mb-tes);
+    &__title {
+       
+  //  font-family: Fraunces 9pt Soft;
+    font-family: var(--ff-fraunces);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 5px;
+    color:  rgba(167, 170, 173, 1);
+    }
+    
+
+}
+.tes {
+   
+    padding: 0 1.5rem;
+    &__detail {
+        //font-family: Barlow;
+        font-family: var(--ff-barlow);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.12857143580913544px;
+        text-align: center;
+        color: rgba(91, 99, 109, 1);
+        margin-bottom: var(--mb-tes);
+
+    }  
+    &__name {
+        font-family: var(--ff-fraunces);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 22px;
+        letter-spacing: -0.12857143580913544px;
+        text-align: center;
+        color: rgba(36, 48, 62, 1);
+        margin-bottom: 2.4rem;
+
+
+
+    } 
+    &__title {
+       // font-family: Barlow;
+        font-family: var(--ff-barlow);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: -0.10000000149011612px;
+        text-align: center;
+        color: rgba(167, 170, 173, 1);
+
+
+    }
+    &__image {
+        width: 7.2rem;
+        border-radius: 50%;
+        margin-bottom: 6.4rem;
+    }
+}
+
+@media (max-width: 1339px){
+   .tes-bottom {
+       flex-direction: column;
+   }
+   .tes {
+       margin-top: var(--mb-tes);
+   }
+   
+}
+
+// --ff-barlow: 'Barlow', sans-serif;
+// --ff-fraunces:  'Fraunces', serif;

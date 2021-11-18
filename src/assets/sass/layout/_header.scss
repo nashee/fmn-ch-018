@@ -1,0 +1,42 @@
+.header {  
+    position: relative;
+    padding:4rem 4.4rem;
+    height: 80rem;
+    background-repeat: no-repeat;
+    background-position: bottom 30% center;
+    background-size: cover;
+    background-image: url(../../assets/img/desktop/image-header.jpg),url(../../assets/img/icon-arrow-down.svg);
+}
+.header::after {
+    content: "";
+    position: absolute;
+    background-image: url(../../assets/img/icon-arrow-down.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 40px 200px;
+    position: absolute;
+    background-position: top -10% center;
+    
+}
+
+@media (max-width: 800px){
+   .header {
+    padding: 2rem 2rem;
+    height: 53.8rem;
+    background-image: url(../../assets/img/mobile/image-header.jpg);
+   }
+   .header::after {
+    content: "";
+    position: absolute;
+    background-image: url(../../assets/img/icon-arrow-down.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 40px 160px;
+    position: absolute;
+    background-position: top 22% center;
+    
+}
+
+}

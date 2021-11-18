@@ -1,0 +1,42 @@
+:root {
+    --ff-barlow: 'Barlow', sans-serif;
+    --ff-fraunces:  'Fraunces', serif;
+    // for desktop
+    --fs-a-md-600: 1.8rem;  // top menu
+    // text in the headder h1 for desktop
+    --fs-h-1-900: 5.6rem;
+    
+    //text color
+    --clr-h-1-900: rgba(255, 255, 255, 1);
+     // text in the header h2 header
+     --fs-h-2-900: 
+     //margin-bottom-2 for dt
+     --mb-2: 4.5rem;
+     // --fs-h-3  for desktop
+     --fs-h-3: 2.8rem;
+      // paragrpah 2 for mobile
+      --fs-p-2: 1.6rem;
+      //test  margin-bottom for desktop
+      --mb-tes: 15rem;
+    
+}
+
+:root {
+    @media (max-width: 600px){
+        --fs-a-md-600: 2rem;
+         // text in the headder h1 for mobile
+        --fs-h-1-900: 4rem;
+        // text in the header 2 mobile
+        --fs-h-2-900: 3.2rem;
+        //margin-bottom-2 for mb
+        --mb-2: 3.6rem;
+         // --fs-h-3  for mobile
+        --fs-h-3: 2.8rem;
+        // paragrpah 2 for mobile
+        --fs-p-2: 1.6rem;
+        //test  margin-bottom for mobile
+        --mb-tes: 6rem;
+    
+    }
+}
+  

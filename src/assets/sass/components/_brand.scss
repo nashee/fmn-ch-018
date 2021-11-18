@@ -1,0 +1,56 @@
+.brand {
+    padding: 8rem;
+    &__heading {
+    // font-family: Fraunces 9pt Soft;
+        font-family: var(--ff-fraunces);
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 49px;
+        letter-spacing: -0.2857142984867096px;
+        text-align: left;
+        color: rgba(36, 48, 62, 1);
+        margin-bottom: 4.5rem ;
+    }
+    &__paragraph {
+        //font-family: Barlow;
+        font-family: var(--ff-barlow);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: -0.12857143580913544px;
+        text-align: left;
+        color: rgba(128, 131, 151, 1);
+        margin-bottom: 4.5rem ;
+
+    }
+    &__link {
+        //font-family: Fraunces 9pt Soft;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px;
+        letter-spacing: 1px;
+        text-align: left;
+        text-transform: uppercase;
+
+    }
+}
+
+@media (max-width: 1440px){
+     .brand {
+         text-align: center;
+         &__heading {
+             text-align: center;
+
+         }
+         &__paragraph {
+            text-align: center;
+
+         }
+         &__brand {
+             
+        }
+     }
+}
