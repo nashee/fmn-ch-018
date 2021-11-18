@@ -246,7 +246,9 @@ a {
   .tes-bottom {
     flex-direction: column; }
   .tes {
-    margin-top: var(--mb-tes); } }
+    margin-top: var(--mb-tes); }
+  .tes-bottom {
+    margin-top: 0; } }
 
 .grid-2-prod {
   display: grid;
